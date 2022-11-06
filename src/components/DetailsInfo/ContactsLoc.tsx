@@ -20,7 +20,7 @@ function ContactsLoc({ job }: IJob) {
               <p className="font-bold mb-4">{job.name}</p>
               <p className="flex items-center ">
                 <MapPinIcon className="w-5 h-7 mr-1 " />
-                <a href={`#`}>{job.address}</a>
+                <a href="#">{job.address}</a>
               </p>
               <p>
                 <a href={`tel:${job.phone}`}>{job.phone}</a>
