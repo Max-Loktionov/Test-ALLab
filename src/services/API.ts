@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const { REACT_APP_BASE_URL, REACT_APP_ACCESS_TOKEN } = process.env;
-
+const { REACT_APP_ACCESS_TOKEN } = process.env;
+const BASE_URL = "https://api.json-generator.com/templates/ZM1r0eic3XEy/data";
 export const fetchJobList = async () => {
   try {
-    const url = `${REACT_APP_BASE_URL}?access_token=${REACT_APP_ACCESS_TOKEN}`;
+    const url = `${BASE_URL}?access_token=${REACT_APP_ACCESS_TOKEN}`;
     const response = await axios(url);
     return response.data;
   } catch (error) {
