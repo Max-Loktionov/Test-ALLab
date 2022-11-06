@@ -12,7 +12,7 @@ interface IEvent extends React.MouseEvent<HTMLElement> {
   selected: number;
 }
 
-const AMOUNT_OF_ITEMS = 3; //itemsPerPage
+const AMOUNT_OF_ITEMS = 3; //limit of data in page itemsPerPage
 
 function JobBoard(prop: Iboard) {
   const { items } = prop;

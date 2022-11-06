@@ -23,6 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint:js": "eslint src/**/*.{js,jsx}",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
