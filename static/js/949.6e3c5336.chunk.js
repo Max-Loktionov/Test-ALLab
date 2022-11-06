@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjob_bord=self.webpackChunkjob_bord||[]).push([[949],{949:function(n,e,r){r.r(e),r.d(e,{default:function(){return c}});var t=r(87),u=r(184);function c(){return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)("h1",{children:"Page not found"}),(0,u.jsx)("div",{children:(0,u.jsx)(t.OL,{to:"/",children:" RETURN TO JOB BOARD"})})]})}}}]);
+//# sourceMappingURL=949.6e3c5336.chunk.js.map
