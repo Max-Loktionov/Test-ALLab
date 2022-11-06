@@ -35,9 +35,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ---
 
-**Use api on routes: / and /:id**
+**Use api on routes: `/` and `/:id `**
 
-- / you can see start page with list of actual jobs;
-- /:id click on job if you need to read detail information about choosen job.
+- `/` you can see start page with list of actual jobs;
+- `/:id` click on job if you need to read detail information about choosen job.
 
 if you need to change settings of pagination, you can find limit of items per page in the pages/JobBoard AMOUNT_OF_ITEMS (by default = 3)
