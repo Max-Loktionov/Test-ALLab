@@ -19,6 +19,7 @@ function DetailsInfo({ details }: IDetails) {
     benefits,
   } = details;
 
+  // we need to change output view of salary 30k => 30 000
   const re = /k/gi;
   const sal = salary.replace(re, " 000");
   const postedAgo = postedDay(createdAt);
