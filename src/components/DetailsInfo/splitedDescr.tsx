@@ -16,13 +16,13 @@ function SplitedDescr(prop: IDescr) {
   return (
     <article className="text-left  text-lg text-grey-text ">
       <h2 className="sr-only">Job detailed info</h2>
-      <p className=" mb-10 ">{description}</p>
+      <p className="descr-parag">{description}</p>
       <h3 className="mb-2 text-xl  text-grey-dark font-bold">{respTitle}</h3>
-      <p className=" mb-10 ">{responsopilities}</p>
+      <p className="descr-parag">{responsopilities}</p>
       <h3 className="mb-2 text-xl  text-grey-dark font-bold">
         {benefitsTitle}
       </h3>
-      <p className=" mb-10 ">{benefits}</p>
+      <p className="descr-parag">{benefits}</p>
     </article>
   );
 }

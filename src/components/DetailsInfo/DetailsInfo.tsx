@@ -27,7 +27,7 @@ function DetailsInfo({ details }: IDetails) {
   return (
     <main className="">
       <Button class={"descktop"}>APPLY NOW</Button>
-      <div className=" xl:relative xl:mb-2 xl:flex">
+      <div className=" xl:relative xl:mb-2 xl:justify-between xl:flex">
         <div className="xl:pb-8  xl:mr">
           <h1 className="text-2xl text-start text-grey-dark font-bold">
             {name}
@@ -37,7 +37,7 @@ function DetailsInfo({ details }: IDetails) {
           </p>
         </div>
 
-        <dl className=" flex items-center mb-3 xl:items-start xl:shrink-0">
+        <dl className=" flex items-center mb-3 xl:items-start xl:ml-14 xl:shrink-0">
           <dt className="sr-only xl:absolute left-0 bottom-0">Relevance</dt>
           <dd className="flex  xl:absolute left-0 bottom-0 ">
             <p className="text-xs items-center  text-grey-sec font-light xl:text-lg xl:font-normal">
@@ -55,7 +55,7 @@ function DetailsInfo({ details }: IDetails) {
       </div>
 
       {/* ======================== section details===================== */}
-      <section className="xl:font-robot ">
+      <section>
         {description && <SplitedDescr descr={description} />}
         <Button class={"mobile"}>APPLY NOW</Button>
       </section>

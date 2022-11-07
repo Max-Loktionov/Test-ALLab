@@ -4,7 +4,6 @@
   "homepage": "https://max-loktionov.github.io/test-allab/",
   "private": true,
   "dependencies": {
-    "@fontsource/roboto": "^4.5.8",
     "@heroicons/react": "^2.0.13",
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",

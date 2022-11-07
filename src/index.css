@@ -40,6 +40,9 @@ code {
 .section-tab {
   @apply border text-base font-bold leading-4  py-2 px-3 rounded-lg;
 }
+.descr-parag {
+  @apply mb-10 xl:font-robot;
+}
 .button {
   @apply mb-16 bg-[#384564] text-white  text-xs leading-4 font-semibold py-4 px-8 rounded-lg xl:block;
 }

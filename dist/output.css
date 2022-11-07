@@ -1206,6 +1206,16 @@ code {
   line-height: 1rem;
 }
 
+.descr-parag {
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 1280px) {
+  .descr-parag {
+    font-family: Roboto, sans-serif;
+  }
+}
+
 .button {
   margin-bottom: 4rem;
   border-radius: 0.5rem;
@@ -1273,6 +1283,10 @@ code {
     margin-right: 5rem;
   }
 
+  .xl\:ml-14 {
+    margin-left: 3.5rem;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -1331,6 +1345,18 @@ code {
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:items-end {
+    align-items: flex-end;
+  }
+
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
   }
 
   .xl\:bg-white {
