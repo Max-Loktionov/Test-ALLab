@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="test-allab">
       <div className="App">
         <Suspense fallback={<PropagateLoader color="#41d61f" />}>
           <Routes>
